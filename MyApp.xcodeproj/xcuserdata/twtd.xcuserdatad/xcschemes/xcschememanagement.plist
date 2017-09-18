@@ -9,6 +9,11 @@
 			<key>orderHint</key>
 			<integer>0</integer>
 		</dict>
+		<key>MyApp_Test.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>3</integer>
+		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
@@ -23,6 +28,26 @@
 			<true/>
 		</dict>
 		<key>1C9451881EAF29D2008A04EE</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>1C94519B1EAF37E5008A04EE</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>1C9451AC1EAF3814008A04EE</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>1C9451BD1EAF389B008A04EE</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>1C9451CF1EAF395A008A04EE</key>
 		<dict>
 			<key>primary</key>
 			<true/>

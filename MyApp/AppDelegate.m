@@ -7,7 +7,7 @@
 //
 
 #import "AppDelegate.h"
-
+#import "AppDelegate+ViewController.h"
 @interface AppDelegate ()
 
 @end
@@ -16,9 +16,37 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+  
+    
+    [self setAppWindows];
+    [self setRootViewController];
+    Class debugCls = NSClassFromString(@"UIDebuggingInformationOverlay");
+    [debugCls performSelector:NSSelectorFromString(@"prepareDebuggingOverlay")];
+#if Textdemo == 0  // 测试
+
+#else
+
+#endif
+    
+    
     return YES;
 }
+
+- (void)application:(UIApplication *)application performActionForShortcutItem:(UIApplicationShortcutItem *)shortcutItem completionHandler:(void (^)(BOOL))completionHandler{
+    /*[注] 分享功能系统自带**/
+    //判断先前我们设置的唯一标识
+    if([shortcutItem.type isEqualToString:@"-11.UITouchText.share"]){
+        NSArray *arr = @[@"hello 3D Touch"];
+        UIActivityViewController *vc = [[UIActivityViewController alloc]initWithActivityItems:arr applicationActivities:nil];
+        //设置当前的VC 为rootVC
+        [self.window.rootViewController presentViewController:vc animated:YES completion:^{
+            
+        }];
+    }
+    
+    //     [[NSNotificationCenter defaultCenter] postNotificationName:@"gotoshare" object:self userInfo:@{@"type":@"1"}];
+}
+
 
 
 - (void)applicationWillResignActive:(UIApplication *)application {
