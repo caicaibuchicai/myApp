@@ -521,7 +521,6 @@
 		1C94518D1EAF29D2008A04EE /* MyAppUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyAppUITests.m; sourceTree = "<group>"; };
 		1C94518F1EAF29D2008A04EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1C9451DE1EAF395A008A04EE /* MyApp-iPad.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MyApp-iPad.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		1C9451DF1EAF395A008A04EE /* MyApp copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "MyApp copy-Info.plist"; path = "/Users/twtd/Desktop/MyApp/MyApp copy-Info.plist"; sourceTree = "<absolute>"; };
 		1C9451E01EAF3F4D008A04EE /* Myapp-prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Myapp-prefix.pch"; sourceTree = "<group>"; };
 		1C9451E41EB04383008A04EE /* AppDelegate+AppService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "AppDelegate+AppService.h"; sourceTree = "<group>"; };
 		1C9451E51EB04383008A04EE /* AppDelegate+AppService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "AppDelegate+AppService.m"; sourceTree = "<group>"; };
@@ -570,6 +569,7 @@
 		1CCE03A21F385A4200F9F43A /* text.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = text.swift; path = ../../../../Home/Controller/text.swift; sourceTree = "<group>"; };
 		1CD0D9631F0E267300A5427D /* back.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = back.jpg; sourceTree = "<group>"; };
 		39559909FCF7E624798637A1 /* Pods-MyApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MyApp/Pods-MyApp.debug.xcconfig"; sourceTree = "<group>"; };
+		577C2F0F20D3FB4D008CF09B /* work.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = work.gpx; sourceTree = "<group>"; };
 		5F6DD6D8F09F9DFE44EA559A /* Pods-MyApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-MyApp/Pods-MyApp.release.xcconfig"; sourceTree = "<group>"; };
 		F67D6EA77C9516C06FF49627 /* Pods_MyApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MyApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -1288,7 +1288,6 @@
 				1C9451661EAF29D1008A04EE /* Products */,
 				53D88392B075FBC2F5DB301C /* Pods */,
 				A91D09A2792F9BD6B7AC32DE /* Frameworks */,
-				1C9451DF1EAF395A008A04EE /* MyApp copy-Info.plist */,
 			);
 			sourceTree = "<group>";
 		};
@@ -1431,6 +1430,7 @@
 				1C9451FB1EB04383008A04EE /* LWTNavigationViewController.m */,
 				1C9451FC1EB04383008A04EE /* LWTSegementViewController.h */,
 				1C9451FD1EB04383008A04EE /* LWTSegementViewController.m */,
+				577C2F0F20D3FB4D008CF09B /* work.gpx */,
 				1C9451FE1EB04383008A04EE /* RootTabViewController.h */,
 				1C9451FF1EB04383008A04EE /* RootTabViewController.m */,
 			);
