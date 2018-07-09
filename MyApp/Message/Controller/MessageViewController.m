@@ -22,7 +22,9 @@
 #import "ScrollViewViewController.h"
 
 @interface MessageViewController ()<UITableViewDelegate,UITableViewDataSource>
-
+{
+    BOOL height;
+}
 @property (nonatomic,strong)UITableView * tableview;
 @property (nonatomic,strong)NSArray * listArr;
 
@@ -36,10 +38,10 @@
 //    Class someClass = NSClassFromString(@"UIDebuggingInformationOverlay");
 //    id obj = [someClass performSelector:NSSelectorFromString(@"overlay")];
 //    [obj performSelector:NSSelectorFromString(@"toggleVisibility")];
-
+    height = YES;
     self.title = @"动画";
     self.view.backgroundColor = WHITCOLOR;
-    self.listArr = @[@"日历控件随便玩",@"网络监测,存储显示",@"YYtext",@"聊天",@"AppStore",@"切图",@"Coretext",@"webview",@"设置跳转",@"评论APP",@"swiftvc",@"轮播图"];
+    self.listArr = @[@"日历控件随便玩历控件随便玩历控件随便玩历控件随便玩历控件随便玩历控件随便玩历控件随便玩",@"网络监测,存储显示",@"YYtext",@"聊天",@"AppStore",@"切图",@"Coretext",@"webview",@"设置跳转",@"评论APP",@"swiftvc",@"轮播图",@"打卡"];
     [self initTableview];
     
 
@@ -61,6 +63,9 @@
 }
 
 - (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath{
+    if (height && indexPath.row==0) {
+        return 100;
+    }else
     return 60;
 }
 
@@ -71,12 +76,24 @@
         cell = [[UITableViewCell alloc]initWithStyle:UITableViewCellStyleDefault reuseIdentifier:cellID];
     }
     cell.textLabel.text = self.listArr[indexPath.row];
+    if (height) {
+        cell.textLabel.textColor = [UIColor redColor];
+    }else{
+          cell.textLabel.textColor = [UIColor blackColor];
+    }
+    cell.textLabel.numberOfLines = 0;
     return cell;
 }
 
 -(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
     //取消选中某一行,让被选中行的高亮颜色消失(带动画效果)
     [tableView deselectRowAtIndexPath:indexPath animated:YES];
+    height = !height;
+    [tableView beginUpdates];
+    [tableView reloadRowsAtIndexPaths:@[indexPath] withRowAnimation:UITableViewRowAnimationAutomatic];
+    [tableView endUpdates];
+    
+    
     switch (indexPath.row) {
         case 0:
         {

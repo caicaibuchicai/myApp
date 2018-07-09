@@ -20,11 +20,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "MyApp/Home/Controller/HomePageViewController.m"
-            timestampString = "523790082.609021"
+            timestampString = "545819426.826243"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "51"
-            endingLineNumber = "51"
+            startingLineNumber = "53"
+            endingLineNumber = "53"
             landmarkName = "-gotoTestVc"
             landmarkType = "7">
          </BreakpointContent>
@@ -36,11 +36,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "MyApp/Home/Controller/HomePageViewController.m"
-            timestampString = "523790082.609021"
+            timestampString = "545819426.826372"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "63"
-            endingLineNumber = "63"
+            startingLineNumber = "65"
+            endingLineNumber = "65"
             landmarkName = "-gotoTestVc"
             landmarkType = "7">
          </BreakpointContent>
@@ -52,11 +52,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "MyApp/Home/Controller/HomePageViewController.m"
-            timestampString = "523790082.609021"
+            timestampString = "545819426.826455"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "64"
-            endingLineNumber = "64"
+            startingLineNumber = "66"
+            endingLineNumber = "66"
             landmarkName = "-gotoTestVc"
             landmarkType = "7">
             <Locations>
@@ -67,13 +67,13 @@
                   symbolName = "-[HomePageViewController gotoTestVc]"
                   moduleName = "MyApp"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/twtd/Desktop/MyApp/MyApp/Home/Controller/HomePageViewController.m"
-                  timestampString = "527050850.628762"
+                  urlString = "file:///Users/twtd/Desktop/myApp/MyApp/Home/Controller/HomePageViewController.m"
+                  timestampString = "552801689.578047"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "65"
-                  endingLineNumber = "65"
-                  offsetFromSymbolStart = "556">
+                  startingLineNumber = "67"
+                  endingLineNumber = "67"
+                  offsetFromSymbolStart = "465">
                </Location>
                <Location
                   shouldBeEnabled = "Yes"
@@ -82,13 +82,13 @@
                   symbolName = "__36-[HomePageViewController gotoTestVc]_block_invoke"
                   moduleName = "MyApp"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/twtd/Desktop/MyApp/MyApp/Home/Controller/HomePageViewController.m"
-                  timestampString = "527050850.632489"
+                  urlString = "file:///Users/twtd/Desktop/myApp/MyApp/Home/Controller/HomePageViewController.m"
+                  timestampString = "552801689.5813071"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "66"
-                  endingLineNumber = "66"
-                  offsetFromSymbolStart = "124">
+                  startingLineNumber = "68"
+                  endingLineNumber = "68"
+                  offsetFromSymbolStart = "113">
                </Location>
             </Locations>
          </BreakpointContent>
@@ -100,11 +100,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "MyApp/Home/Controller/HomePageViewController.m"
-            timestampString = "523790082.609021"
+            timestampString = "545819426.826519"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "67"
-            endingLineNumber = "67"
+            startingLineNumber = "69"
+            endingLineNumber = "69"
             landmarkName = "-gotoTestVc"
             landmarkType = "7">
          </BreakpointContent>
@@ -116,12 +116,76 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "MyApp/Home/Controller/HomePageViewController.m"
-            timestampString = "523790082.609021"
+            timestampString = "545819426.826571"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "71"
-            endingLineNumber = "71"
+            startingLineNumber = "73"
+            endingLineNumber = "73"
             landmarkName = "-gotoTestVc"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MyApp/My/Controller/MyViewController.m"
+            timestampString = "548386845.551206"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "34"
+            endingLineNumber = "34"
+            landmarkName = "-downloadplist"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MyApp/Message/Controller/MessageList/WebView/WebviewViewController.m"
+            timestampString = "552809962.7196259"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "136"
+            endingLineNumber = "136"
+            landmarkName = "-userContentController:didReceiveScriptMessage:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MyApp/Message/Controller/MessageList/WebView/WebviewViewController.m"
+            timestampString = "552809962.738187"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "38"
+            endingLineNumber = "38"
+            landmarkName = "-viewDidLoad"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MyApp/Message/Controller/MessageList/WebView/WebviewViewController.m"
+            timestampString = "552809962.7389489"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "40"
+            endingLineNumber = "40"
+            landmarkName = "-viewDidLoad"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>

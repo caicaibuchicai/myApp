@@ -22,9 +22,11 @@
   
    
     [self buidUI];
-
-       [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(gotoTestVc) name:@"gotoshare" object:nil];
+    
+    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(gotoTestVc) name:@"gotoshare" object:nil];
 }
+
+
 
 - (void)buidUI
 {
