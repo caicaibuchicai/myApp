@@ -46,6 +46,29 @@
         make.right.equalTo(weakself.view).offset(-10);
         make.height.mas_equalTo(Button_Height);
     }];
+    
+    
+    UIButton * _maskButton = [[UIButton alloc] init];
+    [_maskButton setTitle:@"掏空按钮上面的一部分" forState:(UIControlStateNormal)];
+    [_maskButton setFrame:CGRectMake(0, 0, SCREEN_WIDTH/2, SCREEN_HEIGHT/4)];
+    [_maskButton setBackgroundColor:[UIColor colorWithWhite:0 alpha:0.7]];
+    [self.view addSubview:_maskButton];
+    
+    //create path
+    UIBezierPath *path = [UIBezierPath bezierPathWithRect:CGRectMake(0, 0, SCREEN_WIDTH/2, SCREEN_HEIGHT/4)];
+    
+    // MARK: circlePath
+    [path appendPath:[UIBezierPath bezierPathWithArcCenter:CGPointMake(SCREEN_WIDTH / 4, 120) radius:20 startAngle:0 endAngle:2*M_PI clockwise:NO]];
+    
+    // MARK: roundRectanglePath
+    [path appendPath:[[UIBezierPath bezierPathWithRoundedRect:CGRectMake(20, 100,SCREEN_WIDTH/2-20, 10) cornerRadius:15] bezierPathByReversingPath]];
+    
+    CAShapeLayer *shapeLayer = [CAShapeLayer layer];
+    
+    shapeLayer.path = path.CGPath;
+    
+    [_maskButton.layer setMask:shapeLayer];
+
 
 }
 
